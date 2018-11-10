@@ -13,7 +13,7 @@ app.config['JWT_SECRET_KEY'] = 'KenG0W@Da4!'
 
 db = DatabaseConnection()
 
-
+# thanks kengo
 @app.route('/api/v1/questions', methods=['POST'])
 @jwt_required
 def post_question():
